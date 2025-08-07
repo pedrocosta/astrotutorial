@@ -6,7 +6,19 @@
   font-display: swap;
 }
 
-.sitelen-pona {
+@font-face {
+  font-family: 'sitelen seli kiwen mono asuki';
+  src: url('/fonts/sitelenselikiwenmonoasuki.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.sitelen-seli-kiwen-mono-asuki {
+  font-family: 'sitelen seli kiwen mono asuki';
+}
+
+.sitelen-seli-kiwen-asuki {
   font-family: 'sitelen seli kiwen asuki';
 }
 
