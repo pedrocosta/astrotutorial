@@ -1,17 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting';
-const pageTitle = "Home Page";
+const pageTitle = "lipu open";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
-  <p>toki. mi jan Petokota. o kama pona.</p>
-  <p class="sitelen-seli-kiwen-mono-asuki">toki.. mi jan [pona e tenpo o kepeken olin tawa ale].. o kama pona..</p>
-  <p class="sitelen-seli-kiwen-asuki">toki.. mi jan [pona e tenpo o kepeken olin tawa ale].. o kama pona..</p>
-  <p class="sitelen-seli-kiwen-mono-asuki">toki.. mi jan [PETOKOTA].. o kama pona..</p>
-  <p class="sitelen-seli-kiwen-asuki">toki.. mi jan [PETOKOTA].. o kama pona..</p>
-  <p class="sitelen-seli-kiwen-mono-juniko">toki. mi jan Petokota. o kama pona.</p>
-  <p class="sitelen-seli-kiwen-juniko">toki. mi jan Petokota. o kama pona.</p>
+  <h2 class="sitelen-seli-kiwen-mono-asuki">lipu ilo tan jan [pona e tenpo o kepeken olin tawa ale]</h2>
   <p class="sitelen-seli-kiwen-mono-asuki">o kokosila ala..</p>
   <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
 </BaseLayout>
