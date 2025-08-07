@@ -6,6 +6,10 @@
   font-display: swap;
 }
 
+.sitelen-seli-kiwen-asuki {
+  font-family: 'sitelen seli kiwen asuki';
+}
+
 @font-face {
   font-family: 'sitelen seli kiwen mono asuki';
   src: url('/fonts/sitelenselikiwenmonoasuki.ttf') format('ttf');
@@ -18,8 +22,28 @@
   font-family: 'sitelen seli kiwen mono asuki';
 }
 
-.sitelen-seli-kiwen-asuki {
-  font-family: 'sitelen seli kiwen asuki';
+@font-face {
+  font-family: 'sitelen seli kiwen juniko';
+  src: url('/fonts/sitelenselikiwenjuniko.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.sitelen-seli-kiwen-juniko {
+  font-family: 'sitelen seli kiwen juniko';
+}
+
+@font-face {
+  font-family: 'sitelen seli kiwen mono juniko';
+  src: url('/fonts/sitelenselikiwenmonojuniko.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.sitelen-seli-kiwen-mono-juniko {
+  font-family: 'sitelen seli kiwen mono juniko';
 }
 
 html {
