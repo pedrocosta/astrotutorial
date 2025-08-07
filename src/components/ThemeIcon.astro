@@ -14,11 +14,11 @@
     border: 0;
     background: none;
   }
-  .sun { fill: black; }
-  .moon { fill: transparent; }
+  .sun { display: block; }
+  .moon { display: none; }
 
-  :global(.dark) .sun { fill: transparent; }
-  :global(.dark) .moon { fill: white; }
+  :global(.dark) .sun { display: none; }
+  :global(.dark) .moon { display: block; }
 </style>
 
 <script is:inline>
