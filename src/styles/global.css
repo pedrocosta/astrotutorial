@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'sitelen seli kiwen asuki';
-  src: url('/fonts/sitelenselikiwenasuki.eot') format('eot');
+  src: url('/fonts/sitelenselikiwenasuki.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 .sitelen-pona {
-  font-family: '"sitelen seli kiwen asuki"';
+  font-family: 'sitelen seli kiwen asuki';
 }
 
 html {
