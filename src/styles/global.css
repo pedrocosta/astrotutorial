@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'SitelenSeliKiwenAsuki';
+  src: url('/fonts/sitelenselikiwenasuki.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.sitelen-pona {
+  font-family: 'SitelenSeliKiwenAsuki', sans-serif;
+}
+
 html {
   background-color: #f1f5f9;
   font-family: sans-serif;
